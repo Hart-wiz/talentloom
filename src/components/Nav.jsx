@@ -5,9 +5,9 @@ function Nav() {
   return (
     <div>
       <div className="bg-gradient-to-l from-white to-blue-500 h-[100px] ">
-        <img src={logo} alt="" className="size-80 absolute top-[-70px] " />
+        <img src={logo} alt="" className="size-80 absolute top-[-50px] " />
       </div>
-      <div className="flex justify-around bg-blue-950 text-white py-4 font-bold ">
+      <div className="sticky top-0 z-50 shadow-md flex justify-around bg-blue-950 text-white py-4 font-bold ">
         <ul className="flex gap-10">
           <li>
             <a href="">Home</a>
@@ -56,6 +56,7 @@ function Nav() {
           </li>
         </ul>
       </div>
+      <div className="bg-amber-500 h-[9000px]"></div>
     </div>
   );
 }
